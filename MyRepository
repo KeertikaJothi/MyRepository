@@ -1,3 +1,7 @@
+Call KillProcess("UFT.exe")
+Call KillProcess("QtpAutomationAgent.exe")
+Call KillProcess("iexplore.exe")
+
 Set qtpObj = CreateObject("QuickTest.Application")
 ConsoleOutputBlankLine(1)
 qtpObj.Launch()
