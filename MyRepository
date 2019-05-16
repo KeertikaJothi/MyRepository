@@ -7,5 +7,5 @@ ConsoleOutputBlankLine(1)
 qtpObj.Launch()
 qtpObj.Visible = True
 
-ConsoleOutput("UFT Launching")
-qtpObj.Open "",True
+ConsoleOutput("Launching UFT")
+qtpObj.Open "C:\Sample1",True
