@@ -1,0 +1,7 @@
+Set qtpObj = CreateObject("QuickTest.Application")
+ConsoleOutputBlankLine(1)
+qtpObj.Launch()
+qtpObj.Visible = True
+
+ConsoleOutput("UFT Launching")
+qtpObj.Open "",True
